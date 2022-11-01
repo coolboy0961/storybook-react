@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="21" failures="0" errors="0" time="1.878">
+  <testsuite name="顧客情報入力ページのテスト" errors="0" failures="0" skipped="0" timestamp="2022-10-12T04:33:11" time="0.694" tests="8">
+    <testcase classname="顧客情報入力ページのテスト 初期表示の要素存在確認 タイトルが表示されること" name="顧客情報入力ページのテスト 初期表示の要素存在確認 タイトルが表示されること" time="0.036">
+    </testcase>
+    <testcase classname="顧客情報入力ページのテスト 初期表示の要素存在確認 氏名の入力欄とラベルが存在すること" name="顧客情報入力ページのテスト 初期表示の要素存在確認 氏名の入力欄とラベルが存在すること" time="0.007">
+    </testcase>
+    <testcase classname="顧客情報入力ページのテスト 初期表示の要素存在確認 性別のプルダウンリストが存在して、「---」、「男」、「女」が入っていること" name="顧客情報入力ページのテスト 初期表示の要素存在確認 性別のプルダウンリストが存在して、「---」、「男」、「女」が入っていること" time="0.031">
+    </testcase>
+    <testcase classname="顧客情報入力ページのテスト 初期表示の要素存在確認 住所情報を入力する要素が存在すること" name="顧客情報入力ページのテスト 初期表示の要素存在確認 住所情報を入力する要素が存在すること" time="0.01">
+    </testcase>
+    <testcase classname="顧客情報入力ページのテスト 初期表示の要素存在確認 次へボタンが存在すること" name="顧客情報入力ページのテスト 初期表示の要素存在確認 次へボタンが存在すること" time="0.007">
+    </testcase>
+    <testcase classname="顧客情報入力ページのテスト 動的機能のテスト 郵便番号入力欄に入力した情報はvalueにDataBindingされていること" name="顧客情報入力ページのテスト 動的機能のテスト 郵便番号入力欄に入力した情報はvalueにDataBindingされていること" time="0.018">
+    </testcase>
+    <testcase classname="顧客情報入力ページのテスト 動的機能のテスト 郵便番号を入れて、チェックボタンをクリックすると、住所が「住所1」に入ること" name="顧客情報入力ページのテスト 動的機能のテスト 郵便番号を入れて、チェックボタンをクリックすると、住所が「住所1」に入ること" time="0.021">
+    </testcase>
+    <testcase classname="顧客情報入力ページのテスト 動的機能のテスト 次へボタンをクリックすると、入力された情報がStoreに保存されること" name="顧客情報入力ページのテスト 動的機能のテスト 次へボタンをクリックすると、入力された情報がStoreに保存されること" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="商品選択ページのテスト" errors="0" failures="0" skipped="0" timestamp="2022-10-12T04:33:11" time="0.26" tests="7">
+    <testcase classname="商品選択ページのテスト 初期表示の要素存在確認 商品選択画面のタイトルが表示されること" name="商品選択ページのテスト 初期表示の要素存在確認 商品選択画面のタイトルが表示されること" time="0.019">
+    </testcase>
+    <testcase classname="商品選択ページのテスト 初期表示の要素存在確認 商品選択画面の選択オプションが表示されること" name="商品選択ページのテスト 初期表示の要素存在確認 商品選択画面の選択オプションが表示されること" time="0.02">
+    </testcase>
+    <testcase classname="商品選択ページのテスト 初期表示の要素存在確認 初期ステータスでproduct1が選択されている" name="商品選択ページのテスト 初期表示の要素存在確認 初期ステータスでproduct1が選択されている" time="0.016">
+    </testcase>
+    <testcase classname="商品選択ページのテスト 初期表示の要素存在確認 次へボタンが存在すること" name="商品選択ページのテスト 初期表示の要素存在確認 次へボタンが存在すること" time="0.013">
+    </testcase>
+    <testcase classname="商品選択ページのテスト 動的機能のテスト 商品1と商品2をそれぞれ選択できること" name="商品選択ページのテスト 動的機能のテスト 商品1と商品2をそれぞれ選択できること" time="0.025">
+    </testcase>
+    <testcase classname="商品選択ページのテスト 動的機能のテスト 次へのボタンをクリックすると、選択された商品コードがStoreに保存されること" name="商品選択ページのテスト 動的機能のテスト 次へのボタンをクリックすると、選択された商品コードがStoreに保存されること" time="0.015">
+    </testcase>
+    <testcase classname="商品選択ページのテスト 動的機能のテスト 次へボタンをクリックすると、顧客情報入力画面に進むこと" name="商品選択ページのテスト 動的機能のテスト 次へボタンをクリックすると、顧客情報入力画面に進むこと" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Products Componentのテスト" errors="0" failures="0" skipped="0" timestamp="2022-10-12T04:33:12" time="0.184" tests="3">
+    <testcase classname="Products Componentのテスト 初期表示の要素存在確認 初期ステータスでproduct1が選択されている" name="Products Componentのテスト 初期表示の要素存在確認 初期ステータスでproduct1が選択されている" time="0.022">
+    </testcase>
+    <testcase classname="Products Componentのテスト 初期表示の要素存在確認 propsのproductsごとにradioが生成されること" name="Products Componentのテスト 初期表示の要素存在確認 propsのproductsごとにradioが生成されること" time="0.022">
+    </testcase>
+    <testcase classname="Products Componentのテスト 動的機能のテスト 商品1と商品2をそれぞれ選択できること" name="Products Componentのテスト 動的機能のテスト 商品1と商品2をそれぞれ選択できること" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="address apiのテスト" errors="0" failures="0" skipped="0" timestamp="2022-10-12T04:33:12" time="0.105" tests="1">
+    <testcase classname="address apiのテスト address apiから住所を取得できること" name="address apiのテスト address apiから住所を取得できること" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="store unit tests" errors="0" failures="0" skipped="0" timestamp="2022-10-12T04:33:12" time="0.082" tests="2">
+    <testcase classname="store unit tests 初期ステータスが正しいこと" name="store unit tests 初期ステータスが正しいこと" time="0.001">
+    </testcase>
+    <testcase classname="store unit tests action:selectProductが正しく動くこと" name="store unit tests action:selectProductが正しく動くこと" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
